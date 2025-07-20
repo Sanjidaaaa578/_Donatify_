@@ -1,28 +1,31 @@
 # 💰🤝Donatify - A Fundraising Platform
 Donatify is a powerful all-in-one fundraising and donation management platform designed to connect donors with impactful causes in a fast, secure and transparent way. Whether you're an organization raising funds, an individual in need or a compassionate donor wanting to make a difference, Donatify offers the right tools to make your journey effortless. Built with Flutter for a smooth, cross-platform experience and integrated with Firebase and Supabase for a secure and scalable backend. Donatify streamlines the entire donation lifecycle, from campaign creation to fund allocation, all within a user-friendly, mobile-first environment.
-___
+
+---
 ##🔑Key Features
-___
+
 ###💰👤For Donors
 -🛡️Secure signup/login
 -🏠 Browse donation campaigns by category
 -💳 Donate using popular payment methods (Bkash, Nagad)
 -📱 View donation history and track contributions
-___
+
 ###💰👤For Receivers
 -🛡️Secure signup/login
 -➕ Create donation requests with details
 -📊 Track request status (Pending/Approved/Rejected)
 -📈 Monitor donation progress
 -🧾 Submit required documents for verification
-___
+
 ###👨🏻‍💻For Admins
 -🛡️Secure login with specific mail and password(Contact developer for admin access)
 -👁️‍🗨️ Review and manage donation requests
 -📊 View donation statistics
 -🗂️ Organize requests by category
 -🔍 Verify attached documents
-___
+
+---
+
 ##🛠️Tech Stack💻
 -Frontend: Flutter (Dart)
 -Backend: Firebase (Cloud Firestore, Authentication)
@@ -31,23 +34,27 @@ ___
 -Animations: flutter_animate
 -Image Handling: image_picker
 -Platform: Android Only
-___
+
+---
+
 ##Getting Started 🚀
-___
+
 ###Prerequisites
 -Flutter SDK (v3.0 or later)
 -Dart SDK
 -Firebase Project
 -Supabase Project
-___
+
 ###Installation Steps
-```bash
 1. Clone the Repository
+```bash
 git clone https://github.com/  
 cd YOUR_REPO_NAME
+
 2.Install dependencies
+```bash
 flutter pub get
-```
+
 3.Configure Firebase
 -Create Firebase project
 -Add Android App
@@ -64,8 +71,9 @@ await Supabase.initialize(
 5.Run the app
 ```bash
 flutter run
-```
-___
+
+---
+
 ##Project Structure 🗂️
 lib/
 ├── auth/                   # Authentication screens
@@ -89,8 +97,11 @@ lib/
 │   └── app_auth_provider.dart
 ├── main.dart               # App entry point
 └── splash_screen.dart      # Initial screen
+
 ##Features snapshot📸
+
 ###Authentication Flow
+
 | ![Role Selection](screenshots/role_selection_screen.jpg) | ![Donor Login](screenshots/donor_login.jpg) | ![Receiver Login](screenshots/receiver_login.jpg) |
 |:--:|:--:|:--:|
 | *Role Selection* | *Donor Login* | *Receiver Login* |
@@ -110,7 +121,9 @@ lib/
 | ![Admin Dashboard](screenshots/admin_dashboard.jpg) | ![Request Management](screenshots/donation_request.jpg) |
 |:--:|:--:|
 | *Admin Dashboard* | *Request Approval* |
+
 ##Dependencies 📦
+
 dependencies:
   flutter:
     sdk: flutter
@@ -124,7 +137,9 @@ dependencies:
   supabase_flutter: ^2.1.0
   intl: ^0.18.1
   iconsax_flutter: ^1.0.0
+
   ##Contact 📞
+  
   Developer: Sanjida Tabassum
   -📧 Email: sanjidaesha578@gmail.com
   -💼 GitHub: Sanjidaaaa578
