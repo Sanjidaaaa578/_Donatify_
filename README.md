@@ -72,18 +72,18 @@ Donatify is a powerful all-in-one fundraising and donation management platform d
 
 ### Installation Steps
 
-1. Clone the Repository
+#### Clone the Repository
 ```bash
 git clone https://github.com/  
 cd YOUR_REPO_NAME
 ```
 
-2. Install dependencies
+#### Install dependencies
 ```bash
 flutter pub get
 ```
 
-3. Configure Firebase
+#### Configure Firebase
 
 - Create Firebase project
 
@@ -93,7 +93,7 @@ flutter pub get
 
 - Enable Email/Password authentication
 
-4. Configure Supabase
+#### Configure Supabase
 
 - Create Supabase project
 
@@ -106,7 +106,7 @@ await Supabase.initialize(
   anonKey: 'YOUR_SUPABASE_ANON_KEY',
 );
 
-5. Run the app
+#### Run the app
 
 ```bash
 flutter run
@@ -114,30 +114,30 @@ flutter run
 
 ---
 
-##Project Structure 🗂️
+## Project Structure 🗂️
 
 lib/
-├── auth/                   
+├── auth/                   # Authentication screens
 │   ├── login_screen.dart
 │   ├── signup_screen.dart
 │   └── user_selection.dart
-├── donor/                  
+├── donor/                  # Donor features
 │   ├── donor_dashboard.dart
 │   └── payment_screen.dart
-├── receiver/               
+├── receiver/               # Receiver features
 │   ├── receiver_dashboard.dart
 │   └── receiver_donation_form.dart
-├── admin/                  
+├── admin/                  # Admin features
 │   └── admin_dashboard.dart
-├── common/                 
+├── common/                 # Shared components
 │   ├── donation_details.dart
 │   └── models/
-├── services/               
+├── services/               # Backend services
 │   ├── firebase_service.dart
 │   ├── supabase_service.dart
 │   └── app_auth_provider.dart
-├── main.dart               
-└── splash_screen.dart      
+├── main.dart               # App entry point
+└── splash_screen.dart      # Initial screen   
 
 ## Features snapshot📸
 
@@ -172,21 +172,35 @@ lib/
 ## Dependencies 📦
 
 dependencies:
+
   flutter:
+
     sdk: flutter
+
   cupertino_icons: ^1.0.2
+
   firebase_core: ^2.24.0
+
   firebase_auth: ^4.19.0
+
   cloud_firestore: ^4.16.0
+
   provider: ^6.0.5
+
   flutter_animate: ^4.1.1+1
+
   image_picker: ^1.0.4
+
   supabase_flutter: ^2.1.0
+
   intl: ^0.18.1
+
   iconsax_flutter: ^1.0.0
 
   ## Contact 📞
 
   Developer: Sanjida Tabassum
+
   -📧 Email: sanjidaesha578@gmail.com
+  
   -💼 GitHub: Sanjidaaaa578
