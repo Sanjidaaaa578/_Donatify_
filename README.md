@@ -42,26 +42,19 @@ Donatify is a powerful all-in-one fundraising and donation management platform d
 
 ## 🛠️Tech Stack💻
 
-- # Frontend:
-Flutter (Dart)
+- **Frontend:** Flutter (Dart)
 
-- # Backend: 
-Firebase (Cloud Firestore, Authentication)
+- **Backend:** Firebase (Cloud Firestore, Authentication)
 
-- # File Storage: 
-Supabase
+- **File Storage:** Supabase
 
-- # State Management: 
-`Provider`
+- **State Management:** `Provider`
 
-- # Animations: 
-flutter_animate
+- **Animations:** flutter_animate
 
-- # Image Handling: 
-image_picker
+- **Image Handling:** image_picker
 
-- # Platform: 
-Android Only
+- **Platform:** Android Only
 
 ---
 
@@ -87,7 +80,7 @@ git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 ```
 
-#### Install dependencies
+#### Install flutter dependencies
 ```bash
 flutter pub get
 ```
@@ -110,7 +103,7 @@ flutter pub get
 
 - Create storage bucket named **donatify**
 
-- Update supabase_service.dart with your credentials:
+- Update `supabase_service.dart` with your credentials:
 ```dart
 await Supabase.initialize(
   url: 'YOUR_SUPABASE_URL',
@@ -152,7 +145,7 @@ lib/
 └── splash_screen.dart      # Initial screen   
 ```
 
-## Features snapshot📸
+## Features Snapshot📸
 
 ### Authentication Flow
 
@@ -210,8 +203,9 @@ flutter test
 
   ## Contact 📞
 
-  Developer: Sanjida Tabassum
+  🙋🏻‍♀️**Developer:** Sanjida Tabassum
 
-  -📧 Email: sanjidaesha578@gmail.com
+  - 📧 **Email:** sanjidaesha578@gmail.com
   
-  -💼 GitHub: Sanjidaaaa578
+  - 💼 **GitHub:** @Sanjidaaaa578
+  
