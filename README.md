@@ -74,7 +74,7 @@ Donatify is a powerful all-in-one fundraising and donation management platform d
 
 #### Clone the Repository
 ```bash
-git clone https://github.com/  
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git  
 cd YOUR_REPO_NAME
 ```
 
@@ -100,11 +100,12 @@ flutter pub get
 - Create storage bucket named "donatify"
 
 - Update supabase_service.dart with your credentials:
-
+```dart
 await Supabase.initialize(
   url: 'YOUR_SUPABASE_URL',
   anonKey: 'YOUR_SUPABASE_ANON_KEY',
 );
+```
 
 #### Run the app
 
@@ -174,29 +175,17 @@ lib/
 
 ```bash
 dependencies:
-
   flutter:
-
     sdk: flutter
-
   cupertino_icons: ^1.0.2
-
   firebase_core: ^2.24.0
-
   firebase_auth: ^4.19.0
-
   cloud_firestore: ^4.16.0
-
   provider: ^6.0.5
-
   flutter_animate: ^4.1.1+1
-
   image_picker: ^1.0.4
-
   supabase_flutter: ^2.1.0
-
   intl: ^0.18.1
-
   iconsax_flutter: ^1.0.0
   ```
 
