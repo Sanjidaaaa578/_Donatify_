@@ -115,7 +115,7 @@ flutter run
 ---
 
 ## Project Structure 🗂️
-
+```bash
 lib/
 ├── auth/                   # Authentication screens
 │   ├── login_screen.dart
@@ -138,6 +138,7 @@ lib/
 │   └── app_auth_provider.dart
 ├── main.dart               # App entry point
 └── splash_screen.dart      # Initial screen   
+```
 
 ## Features snapshot📸
 
@@ -171,6 +172,7 @@ lib/
 
 ## Dependencies 📦
 
+```bash
 dependencies:
 
   flutter:
@@ -196,6 +198,12 @@ dependencies:
   intl: ^0.18.1
 
   iconsax_flutter: ^1.0.0
+  ```
+
+  ## 💡Testing
+```bash
+flutter test
+```
 
   ## Contact 📞
 
